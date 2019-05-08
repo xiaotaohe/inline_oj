@@ -1,0 +1,31 @@
+./temp_files/tmp_1556354787.2.cpp: In member function ‘bool Solution::isPalindrome(int)’:
+./temp_files/tmp_1556354787.2.cpp:9:15: error: ‘string’ was not declared in this scope
+               string str = to_string(x);
+               ^
+./temp_files/tmp_1556354787.2.cpp:9:15: note: suggested alternative:
+In file included from /opt/rh/devtoolset-3/root/usr/include/c++/4.9.2/iosfwd:39:0,
+                 from /opt/rh/devtoolset-3/root/usr/include/c++/4.9.2/ios:38,
+                 from /opt/rh/devtoolset-3/root/usr/include/c++/4.9.2/ostream:38,
+                 from /opt/rh/devtoolset-3/root/usr/include/c++/4.9.2/iostream:39,
+                 from ./temp_files/tmp_1556354787.2.cpp:1:
+/opt/rh/devtoolset-3/root/usr/include/c++/4.9.2/bits/stringfwd.h:62:33: note:   ‘std::string’
+   typedef basic_string<char>    string;   
+                                 ^
+./temp_files/tmp_1556354787.2.cpp:10:8: error: expected ‘;’ before ‘str1’
+ string str1 = str;
+        ^
+./temp_files/tmp_1556354787.2.cpp:11:9: error: ‘str’ was not declared in this scope
+ reverse(str.begin(),str.end());
+         ^
+./temp_files/tmp_1556354787.2.cpp:11:30: error: ‘reverse’ was not declared in this scope
+ reverse(str.begin(),str.end());
+                              ^
+./temp_files/tmp_1556354787.2.cpp:11:30: note: suggested alternative:
+In file included from /opt/rh/devtoolset-3/root/usr/include/c++/4.9.2/algorithm:62:0,
+                 from ./temp_files/tmp_1556354787.2.cpp:4:
+/opt/rh/devtoolset-3/root/usr/include/c++/4.9.2/bits/stl_algo.h:1177:5: note:   ‘std::reverse’
+     reverse(_BidirectionalIterator __first, _BidirectionalIterator __last)
+     ^
+./temp_files/tmp_1556354787.2.cpp:12:11: error: ‘str1’ was not declared in this scope
+ if(str == str1)
+           ^

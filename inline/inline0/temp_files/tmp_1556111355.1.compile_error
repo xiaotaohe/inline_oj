@@ -1,0 +1,4 @@
+./temp_files/tmp_1556111355.1.cpp: In member function ‘bool Solution::isPalindrome(int)’:
+./temp_files/tmp_1556111355.1.cpp:8:14: error: ‘ture’ was not declared in this scope
+       return ture;        
+              ^
